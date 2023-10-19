@@ -55,13 +55,15 @@ The primary dataset used is "Salary Data.csv", which encompasses several feature
 
 The R-squared values for each of the models are as follows:
 
-- **Linear Regression**: 0.8556
-- **Decision Tree Regression**: 0.8889
-- **Extra Tree Regression**: 0.8997
-- **Gradient Boosting Regression**: 0.9160
-- **Random Forest Regression**: 0.9111
-- **Ridge Regression**: 0.9036
-- **Lasso Regression**: 0.9027
-- **Elastic Net Regression**: 0.9046
+| Algorithm                   | R-squared Value |
+|-----------------------------|-----------------|
+| Linear Regression           | 0.8556          |
+| Decision Tree Regression    | 0.8889          |
+| Extra Tree Regression       | 0.8997          |
+| Gradient Boosting Regression| 0.9160          |
+| Random Forest Regression    | 0.9111          |
+| Ridge Regression            | 0.9036          |
+| Lasso Regression            | 0.9027          |
+| Elastic Net Regression      | 0.9046          |
 
 The Gradient Boosting Regression model showed the highest R-squared value, indicating it performed the best among all the models in terms of explaining the variance in the dataset.
