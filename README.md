@@ -5,7 +5,7 @@
 ## Overview
 
 This repository contains a comprehensive analysis of the "Salary Data.csv" dataset, aiming to predict salaries based on several features like age, years of experience, gender, and job title. The project is notable for its extensive use of advanced machine learning tools, including the `Pipeline`, `ColumnTransformer`, and `TransformedTargetRegressor` APIs from scikit-learn, ensuring a streamlined and efficient modeling process. Through rigorous data processing, visualization, and machine learning, we've derived valuable insights and built predictive models with impressive accuracy.
-![pipeline](pipeline-delle.png)
+![pipeline](pipeline-dalle.png)
 
 
 ## Dataset
@@ -36,7 +36,7 @@ The primary dataset used is "Salary Data.csv", which encompasses several feature
 ### Model Training and Evaluation:
 
 - Created a `Pipeline` that streamlined the preprocessing and modeling steps, improving the code's maintainability and reproducibility.
-![pipeline](pipeline-overview.png)
+![pipeline](Pipeline-overview.png)
 
 - Employed `TransformedTargetRegressor` to scale the target variable, optimizing model performance.
 - Employed several regression algorithms, including:
