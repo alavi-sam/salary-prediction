@@ -36,6 +36,8 @@ The primary dataset used is "Salary Data.csv", which encompasses several feature
 ### Model Training and Evaluation:
 
 - Created a `Pipeline` that streamlined the preprocessing and modeling steps, improving the code's maintainability and reproducibility.
+
+
 ![pipeline](Pipeline-overview.png)
 
 - Employed `TransformedTargetRegressor` to scale the target variable, optimizing model performance.
